@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Learn javascript",
+      "catgory": "Personal",
+      "create_at": "20-Oct-2022"
+    },
+    {
+      "name": "Watch TV",
+      "catgory": "Personal",
+      "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "Make Coffee",
+        "catgory": "Personal",
+        "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "Play badminton",
+        "catgory": "Personal",
+        "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "Shopping",
+        "catgory": "Personal",
+        "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "Sleep",
+        "catgory": "Personal",
+        "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "Do homework",
+        "catgory": "School",
+        "create_at": "20-Oct-2022"
+    },
+    {
+        "name": "water plant",
+        "catgory": "Personal",
+        "create_at": "20-Oct-2022"
+    }
+]

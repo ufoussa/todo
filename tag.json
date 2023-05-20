@@ -1,0 +1,26 @@
+[
+    {
+      "logo": "list_alt",
+      "task_name": "All tasks",
+      "badge": "8",
+      "status":"0"
+    },
+    {
+      "logo": "looks_one",
+      "task_name": "Personal",
+      "badge": "7",
+      "status":"0"
+    },
+    {
+      "logo": "looks_two",
+      "task_name": "School",
+      "badge": "1",
+      "status":"0"
+    },
+    {
+      "logo": "looks_3",
+      "task_name": "Work",
+      "badge": "0",
+      "status":"0"
+    }
+  ]

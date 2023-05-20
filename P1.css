@@ -1,0 +1,210 @@
+.body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container {
+    background-color: black;
+    width: 720px;
+    min-height: 576px;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    position: relative;
+    padding: 0;
+}
+.nav-left .accinfor{
+    display: flex;
+    align-items:center;
+    line-height: 0.5;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+}
+.nav-left .accinfor .infor h2{
+    font-size: 1rem;
+}
+.nav-left .accinfor .infor span{
+    font-size: 0.7rem;
+}
+.nav-left .accinfor,
+.nav-left .search,
+.nav-left .cat{
+    padding: 0.7rem;
+    color: white;
+}
+.search input[type="text"]{
+    width:100%;
+    color:rgba(255, 255, 255, 0.919);
+    background-color: inherit;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.nav-left .cat ul, 
+.main .wrapper .task-list ul{
+    color: aliceblue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.nav-left .cat ul li:hover{
+    color: rgb(14, 94, 163);
+    border-radius: 3px;
+    background-color: white;
+
+}
+.nav-left .cat ul li{
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.nav-left .cat ul li span{
+    margin: 0 20px 0 0;
+}
+.nav-left .cat ul li .toy{
+    align-items: center;
+    display: flex;
+}
+.nav-left .cat ul li .badge{
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.nav-left .Add{
+    position: absolute;
+    bottom: 0;
+}
+.nav-left .Add{
+    display: block;
+    align-items: center;
+    width: 35%;
+    border: none;
+    padding: 7px 60px 7px 0.7rem;
+    display: flex ;
+    cursor: pointer;
+    color: aliceblue;
+}
+.nav-left .Add span{
+    margin: 0 20px 0 0;
+}
+.main{
+    background-color: rgb(36, 35, 35);
+    color: rgb(67, 133, 183);
+    border-radius: 7px 0 7px 0;
+}
+.main .wrapper{
+    padding: 30px;
+}
+.main .wrapper .task-title{
+    display: flex;
+
+}
+.main .wrapper .task-title h3{
+    margin-left: 1rem;
+    font-weight: 600px;
+    font-size: 1.2rem;
+}
+.main .wrapper .task-list ul{
+    margin-top: 15px;
+}
+.main .wrapper .task-list ul li{
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    padding: 10px 10px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    align-items: center;
+    
+}
+.main .task-list ul{
+    height: 380px;
+    overflow-y:auto;
+}
+.main .wrapper .task-list ul li .desc{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+    font-size: 0.7rem;
+    align-items: center;
+}
+.main .wrapper .task-list ul :hover{
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(112, 112, 112);
+
+}
+#Add-New:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(112, 112, 112);
+}
+#Add-New{
+    color: white;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    width: 52%;
+    height: 40px;
+}
+#Add-New span{
+    margin-right: 15px;
+}
+#Add-New input[type="text"],
+.cat ul li input{
+    background-color: inherit;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.9rem;
+    display: flex;
+}
+.main .task-list ul::-webkit-scrollbar{
+    border-radius: 3px;
+    background-color:rgb(184, 184, 184);
+    width: 8px;
+}
+.main .task-list ul::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color:rgb(28, 28, 28);
+}
+/* .select{
+    color: white;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 40px; 
+    cursor:pointer;
+}
+#ltask{
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+.option{
+    width: 100%;
+    list-style: none;
+    cursor:pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.hide{
+    visibility: hidden;
+} */
